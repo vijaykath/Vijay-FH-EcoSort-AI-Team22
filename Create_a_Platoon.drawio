@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mxfile host="app.diagrams.net" modified="2026-11-17T00:00:00.000Z" agent="ChatGPT" version="24.7.17" type="device">
+  <diagram id="create-platoon" name="1 - Create a Platoon">
+    
+    
+    <mxGraphModel dx="1422" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1200" pageHeight="800" math="0" shadow="0">
+      
+      
+      <root>
+        
+        
+        <mxCell id="0"/>
+        
+        
+        <mxCell id="1" parent="0"/>
+        
+        
+        <mxCell id="title" value="1 - Create a Platoon" style="text;html=1;align=center;verticalAlign=middle;fontSize=22;fontStyle=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          
+          
+          <mxGeometry x="30" y="15" width="1140" height="40" as="geometry"/>
+          
+        
+        </mxCell>
+        
+        
+        <mxCell id="s" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#000000;strokeColor=#000000;" parent="1" vertex="1">
+          
+          
+          <mxGeometry x="560" y="75" width="24" height="24" as="geometry"/>
+          
+        
+        </mxCell>
+        
+        
+        <mxCell id="a" value="Request platoon creation" style="rounded=1;whiteSpace=wrap;html=1;arcSize=18;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=13;" parent="1" vertex="1">
+          
+          
+          <mxGeometry x="465" y="125" width="210" height="48" as="geometry"/>
+          
+        
+        </mxCell>
+        
+        
+        <mxCell id="d" value="Truck eligible&lt;br&gt;to lead?" style="rhombus;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=12;" parent="1" vertex="1">
+          
+          
+          <mxGeometry x="510" y="205" width="120" height="75" as="geometry"/>
+          
+        
+        </mxCell>
+        
+        
+        <mxCell id="r" value="Reject creation request" style="rounded=1;whiteSpace=wrap;html=1;arcSize=18;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=13;" parent="1" vertex="1">
+          
+          
+          <mxGeometry x="760" y="220" width="190" height="48" as="geometry"/>
+          
+        
+        </mxCell>
+        
+        
+        <mxCell id="f1" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#ffffff;strokeColor=#000000;strokeWidth=3;" parent="1" vertex="1">
+          
+          
+          <mxGeometry x="835" y="300" width="28" height="28" as="geometry"/>
+          
+        
+        </mxCell>
+        
+        
+        <mxCell id="g" value="Generate unique platoon ID" style="rounded=1;whiteSpace=wrap;html=1;arcSize=18;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=13;" parent="1" vertex="1">
+          
+          
+          <mxGeometry x="465" y="315" width="210" height="48" as="geometry"/>
+          
+        
+        </mxCell>
+        
+        
+        <mxCell id="i" value="Initialize platoon settings" style="rounded=1;whiteSpace=wrap;html=1;arcSize=18;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=13;" parent="1" vertex="1">
+          
+          
+          <mxGeometry x="465" y="390" width="210" height="48" as="geometry"/>
+          
+        
+        </mxCell>
+        
+        
+        <mxCell id="l" value="Assign initiating truck as leader" style="rounded=1;whiteSpace=wrap;html=1;arcSize=18;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=13;" parent="1" vertex="1">
+          
+          
+          <mxGeometry x="465" y="465" width="210" height="48" as="geometry"/>
+          
+        
+        </mxCell>
+        
+        
+        <mxCell id="reg" value="Register platoon" style="rounded=1;whiteSpace=wrap;html=1;arcSize=18;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=13;" parent="1" vertex="1">
+          
+          
+          <mxGeometry x="465" y="540" width="210" height="48" as="geometry"/>
+          
+        
+        </mxCell>
+        
+        
+        <mxCell id="b" value="Broadcast platoon availability" style="rounded=1;whiteSpace=wrap;html=1;arcSize=18;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=13;" parent="1" vertex="1">
+          
+          
+          <mxGeometry x="465" y="615" width="210" height="48" as="geometry"/>
+          
+        
+        </mxCell>
+        
+        
+        <mxCell id="f2" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#ffffff;strokeColor=#000000;strokeWidth=3;" parent="1" vertex="1">
+          
+          
+          <mxGeometry x="556" y="700" width="28" height="28" as="geometry"/>
+          
+        
+        </mxCell>
+        
+        
+        <mxCell id="e1" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;fontSize=12;labelBackgroundColor=#ffffff;" parent="1" edge="1" source="s" target="a">
+          
+          
+          <mxGeometry relative="1" as="geometry"/>
+          
+        
+        </mxCell>
+        
+        
+        <mxCell id="e2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;fontSize=12;labelBackgroundColor=#ffffff;" parent="1" edge="1" source="a" target="d">
+          
+          
+          <mxGeometry relative="1" as="geometry"/>
+          
+        
+        </mxCell>
+        
+        
+        <mxCell id="e3" value="[no]" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;fontSize=12;labelBackgroundColor=#ffffff;" parent="1" edge="1" source="d" target="r">
+          
+          
+          <mxGeometry relative="1" as="geometry"/>
+          
+        
+        </mxCell>
+        
+        
+        <mxCell id="e4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;fontSize=12;labelBackgroundColor=#ffffff;" parent="1" edge="1" source="r" target="f1">
+          
+          
+          <mxGeometry relative="1" as="geometry"/>
+          
+        
+        </mxCell>
+        
+        
+        <mxCell id="e5" value="[yes]" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;fontSize=12;labelBackgroundColor=#ffffff;" parent="1" edge="1" source="d" target="g">
+          
+          
+          <mxGeometry relative="1" as="geometry"/>
+          
+        
+        </mxCell>
+        
+        
+        <mxCell id="e6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;fontSize=12;labelBackgroundColor=#ffffff;" parent="1" edge="1" source="g" target="i">
+          
+          
+          <mxGeometry relative="1" as="geometry"/>
+          
+        
+        </mxCell>
+        
+        
+        <mxCell id="e7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;fontSize=12;labelBackgroundColor=#ffffff;" parent="1" edge="1" source="i" target="l">
+          
+          
+          <mxGeometry relative="1" as="geometry"/>
+          
+        
+        </mxCell>
+        
+        
+        <mxCell id="e8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;fontSize=12;labelBackgroundColor=#ffffff;" parent="1" edge="1" source="l" target="reg">
+          
+          
+          <mxGeometry relative="1" as="geometry"/>
+          
+        
+        </mxCell>
+        
+        
+        <mxCell id="e9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;fontSize=12;labelBackgroundColor=#ffffff;" parent="1" edge="1" source="reg" target="b">
+          
+          
+          <mxGeometry relative="1" as="geometry"/>
+          
+        
+        </mxCell>
+        
+        
+        <mxCell id="e10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;fontSize=12;labelBackgroundColor=#ffffff;" parent="1" edge="1" source="b" target="f2">
+          
+          
+          <mxGeometry relative="1" as="geometry"/>
+          
+        
+        </mxCell>
+        
+      
+      </root>
+      
+    
+    </mxGraphModel>
+    
+  
+  </diagram>
+  
+  
+</mxfile>
